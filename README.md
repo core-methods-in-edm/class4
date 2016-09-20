@@ -25,15 +25,14 @@ Once you have set up this connection we will be using an R package named Swirl, 
 
 **Step 9:** Initiate Swirl by typing `swirl()`
 
-**Step 10:** Follow the instructions Swirl gives you to complete the lesson - you want to do the Data Science in Education course, **not** a preloaded Swirl course.
+**Step 10:** Follow the instructions Swirl gives you to complete the lesson
 
-**Step 11:** Once you have completed and exited the lesson, type the following code into the RStudio Console window to export your lesson data. (You may need to change the file path in the first line. To do so search for "history_database" and replace the file path to pint at that location on your computer).
+**Step 11:** Once you have completed and exited the lesson, type the following code into the RStudio Console window to export your lesson data. (You may need to change the file path in the first line. To do so search for "history_database" and replace the file path to point at that location on your computer).
 
         H <-read.table("~/.rstudio-desktop/history_database", sep=":", fill=T, stringsAsFactors=F) 
-        H <- H[which(H$V2 == "Lesson One"):which.max(as.numeric(H$V1)), ]
         names(H) <- c("time", "answer")
         H$id <- "YOUR NAME"
-        write.csv(H, file = "lesson1.csv")
+        write.csv(H, file = "lesson1.csv", row.names = FALSE)
 
 **Step 12:** Now commit all changes to your cloned repository by clicking the "Git" button on the top of the left hand pane and then "Commit" from the drop-down menu.
 
