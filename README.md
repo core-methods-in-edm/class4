@@ -1,4 +1,4 @@
-# Class 4 - Swirll
+# Class 4 - Swirl
 
 ##Instructions
 
