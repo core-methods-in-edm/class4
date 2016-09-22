@@ -1,7 +1,7 @@
 # Class 5 - Swirl
 
 ##Instructions
-
+hello..
 This week you will be acquiring and submitting some work through Github. To do this you will need to have RStudio & Github connected. If you have not already done this, please follow the instructions [here](http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/) (Mac) or [here](http://www.r-bloggers.com/rstudio-and-github/) (Windows). This can be a non-trivial step, so save some time to do it. If you are having trouble either Tweet your anguish or email me directly. (The crucial step is that in RStudio under Tools -> Global Options -> Git/SVN you must fill in the both the boxes: Git executable and SVN executable with the locations of both of those files.)
 
 Once you have set up this connection we will be using an R package named Swirl, Swirl is an interactive R lesson generator. Your task will be to do an introductory lesson in R and pull the data back to the Github repository.
