@@ -93,4 +93,9 @@
 1474562208491:which (ints > 7)
 1474562247007:bye()
 1474562292836:H <-read.table(~/.rstudio-desktop/history_database, sep=",", fill=T, stringsAsFactors=F)
-","Linh Doan"
+1474562292849:names(H) <- c(time, answer)
+1474562292849:H$id <- Linh Doan
+1474562292850:write.csv(H, file = lesson1.csv, row.names = FALSE)
+1474562855700:H <-read.table(~/.rstudio-desktop/history_database, sep=","Linh Doan"
+", fill=T, stringsAsFactors=F)
+","","Linh Doan"
