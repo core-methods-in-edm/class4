@@ -1,0 +1,61 @@
+"time","answer","id"
+"1474557687574","install.packages(swirl)","Linh Doan"
+"1474557711359","library (swirl)","Linh Doan"
+"1474557759960","swirl()","Linh Doan"
+"1474558147506","swirl()","Linh Doan"
+"1474558225892","data.matrix()","Linh Doan"
+"1474558251139","View(dataMatrix)","Linh Doan"
+"1474558268641","head(dataMatrix)","Linh Doan"
+"1474558350845","heatmap()","Linh Doan"
+"1474558387616","heatmap(dataMatrix)","Linh Doan"
+"1474558439617","myedit addPatt.R","Linh Doan"
+"1474558456224","myedit (addPatt.R)","Linh Doan"
+"1474558473610","addPatt.R","Linh Doan"
+"1474558512036","info()","Linh Doan"
+"1474558542075","bye()","Linh Doan"
+"1474558548301","swirl()","Linh Doan"
+"1474558584844","menu()","Linh Doan"
+"1474558589221","info()","Linh Doan"
+"1474558591644","main()","Linh Doan"
+"1474558597554","main()","Linh Doan"
+"1474558602775","next()","Linh Doan"
+"1474558606606","bye()","Linh Doan"
+"1474558634698","swirl()","Linh Doan"
+"1474558673034","bye()","Linh Doan"
+"1474558677487","swirl()","Linh Doan"
+"1474558836086","?Devices","Linh Doan"
+"1474558914812","faithful eruptions waiting","Linh Doan"
+"1474558941363","faithful eruptions","Linh Doan"
+"1474558991643","head(faithful)","Linh Doan"
+"1474559018465","plot(faithful,eruptions)","Linh Doan"
+"1474559068855","with(faithful, plot(eruptions, waiting))","Linh Doan"
+"1474559095265","nxt()","Linh Doan"
+"1474559142429","title(main= Old Faith Ful Geyser data)","Linh Doan"
+"1474559148408","title(main= Old Faith Ful Geyser data"")
+1474559167164:tile
+1474559194643:bye()
+1474559200210:bye
+1474559216172:end
+1474559242207:title(main= Old Faith Ful Geyser data)
+1474559262294:title(main= Old Faith Ful Geyser data)
+1474559279561:title(main = Old Faithful Geyser data)
+1474559288119:dev.cur()
+1474559317965:pdf(file=myplot.pdf)
+1474559367839:pdf(file=myplot.pdf)
+1474559412760:with(faithful,plot(eruptions,waiting))
+1474559446620:title(main = Old Faithful)
+1474559458830:title(main = Old Faith Ful Geyser data)
+1474559473048:title(main = Old Faithful Geyser data)
+1474559517781:dev.cur()
+1474559525453:dev.off()
+1474559536600:dev.cur()
+1474559574322:with(faithful, plot(eruptions,waiting))
+1474559606366:title(main = Old Faithfil Geyser data)
+1474559618470:title(main = Old Faithful Geyser data)
+1474559677804:dev.copy(png, geyserplot.png)
+1474559689674:dev.copy(png, file = geyserplot.png)
+1474559710435:dev.off()
+1474559858117:bye()
+1474559923749:H <-read.table(~/.rstudio-desktop/history_database, sep=","Linh Doan"
+", fill=T, stringsAsFactors=F)
+","","Linh Doan"
