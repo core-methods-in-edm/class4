@@ -1,0 +1,93 @@
+V1,id
+install.packages(swirl),YOUR NAME
+swirl,YOUR NAME
+install.packages(swirl),YOUR NAME
+library(swirl),YOUR NAME
+library(swirl),YOUR NAME
+swirl(),YOUR NAME
+5+7,YOUR NAME
+x <- 5+7,YOUR NAME
+x,YOUR NAME
+y <- x-3,YOUR NAME
+y,YOUR NAME
+"c(1.1, 9, 3.14)",YOUR NAME
+"z <- c(1.1, 9, 3.14)",YOUR NAME
+?c,YOUR NAME
+z,YOUR NAME
+"c(z, 555, z)",YOUR NAME
+z * 2+ 100,YOUR NAME
+my_sqrt <- sqrt(z-1),YOUR NAME
+my_sqrt,YOUR NAME
+bye(),YOUR NAME
+swirl(),YOUR NAME
+library(swirl),YOUR NAME
+ls(),YOUR NAME
+rm(list-ls)),YOUR NAME
+rm(list-ls())),YOUR NAME
+rm(list-ls()),YOUR NAME
+rm(list=ls()),YOUR NAME
+swirl(),YOUR NAME
+my_sid <- z/my_sqrt,YOUR NAME
+my_div <- z/my_sqrt,YOUR NAME
+my_div,YOUR NAME
+"c(1,2,3,4) + c(0, 10)",YOUR NAME
+"c(1,2,3,4) + c(0, 10, 100)",YOUR NAME
+z * 2+ 1000,YOUR NAME
+my_div,YOUR NAME
+swirl(),YOUR NAME
+back,YOUR NAME
+swirl(),YOUR NAME
+exit,YOUR NAME
+help.start(),YOUR NAME
+swirl_options(),YOUR NAME
+swirl_courses_dir,YOUR NAME
+swirl,YOUR NAME
+,YOUR NAME
+main(),YOUR NAME
+bye(),YOUR NAME
+swirl(),YOUR NAME
+bye(),YOUR NAME
+swirl(),YOUR NAME
+getwd(),YOUR NAME
+ls(),YOUR NAME
+x <- 9,YOUR NAME
+ls(),YOUR NAME
+View(H),YOUR NAME
+list.files(),YOUR NAME
+?list.files,YOUR NAME
+args(),YOUR NAME
+args(list.files),YOUR NAME
+old.dir <- getwd(),YOUR NAME
+dir.create(testdir),YOUR NAME
+dir.create(testdir),YOUR NAME
+setwd(testdir),YOUR NAME
+file.create(mytest.r),YOUR NAME
+file.create(mytest.R),YOUR NAME
+ls(),YOUR NAME
+list.files(),YOUR NAME
+file.exists(),YOUR NAME
+file.exists(mytest.R),YOUR NAME
+file.info(mytest.T),YOUR NAME
+file.info(mytest.R),YOUR NAME
+file.rename,YOUR NAME
+"file.rename(mytest.R,mytest2.R)",YOUR NAME
+"file.copy(mytest2.R,mytest3.R)",YOUR NAME
+file.path(mytest3.R),YOUR NAME
+file.path,YOUR NAME
+"file.path(folder1,folder2)",YOUR NAME
+file.path(folder1/folder2),YOUR NAME
+file.path(folder1/folder2),YOUR NAME
+?dir.create,YOUR NAME
+"dir.create(getwd(), testdir2/testdir3)",YOUR NAME
+"dir.create(file.path(testdir2/testdir3), recursive = true)",YOUR NAME
+"dir.create(file.path(testdir2,testdir3), recursive = true)",YOUR NAME
+"dir.create(file.path(testdir2, testdir3), recursive = TRUE)",YOUR NAME
+setwd(class4),YOUR NAME
+setwd(C:/Users/Josh/Documents/R/class4),YOUR NAME
+setwd(old.dir),YOUR NAME
+unlink(testdir),YOUR NAME
+"unlink(testdir, recursive = TRUE)",YOUR NAME
+"H <-read.table(C:/Users/Josh/Documents/R/class4/.Rhistory, sep=:, fill=T, stringsAsFactors=F)",YOUR NAME
+"names(H) <- c(time, answer)",YOUR NAME
+H$id <- YOUR NAME,YOUR NAME
+"write.csv(H, file = lesson1.csv, row.names = FALSE)",YOUR NAME
