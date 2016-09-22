@@ -58,4 +58,39 @@
 1474559858117:bye()
 1474559923749:H <-read.table(~/.rstudio-desktop/history_database, sep=","Linh Doan"
 ", fill=T, stringsAsFactors=F)
-","","Linh Doan"
+1474559923761:names(H) <- c(time, answer)
+1474559923762:H$id <- Linh Doan
+1474559923763:write.csv(H, file = lesson1.csv, row.names = FALSE)
+1474560152708:library(swirl)
+1474560185231:swirl()
+1474560247228:install_course(R Programming)
+1474560258447:swirl()
+1474560326813:TRUE == TRUE
+1474560355618:(FALSE == TRUE) == FALSE
+1474560396924:(6==7)=FALSE
+1474560411030:6 == 7
+1474560424087:6 < 7
+1474560436598:10<=10
+1474560478137:5 != 7
+1474560548036:(5 != 7) == !FALSE
+1474560566962:! 5 == 7
+1474560670480:FALSE & FALSE
+1474560699438:TRUE & c(TRUE,FALSE, FALSE).
+1474560718655:TRUE & c(TRUE,FALSE,FALSE)
+1474560747198:TRUE && c(TRUE, FALSE, FALSE)
+1474560872332:TRUE | c(TRUE,FALSE,FALSE)
+1474560903189:TRUE || c(TRUE, FALSE, FALSE)
+1474560953044:5 > 8 || 6 != 8 && 4 > 3.9
+1474561227615:isTRUE(6>4)
+1474561373842:identical('twins', 'twins')
+1474561525790:xor(5 == 6, !FALSE)
+1474561644348:ints<- sample(10)
+1474561659275:display(ints)
+1474561677796:display()
+1474561696601:display (ints)
+1474561705361:ints
+1474561743262:ints > 5
+1474562208491:which (ints > 7)
+1474562247007:bye()
+1474562292836:H <-read.table(~/.rstudio-desktop/history_database, sep=",", fill=T, stringsAsFactors=F)
+","Linh Doan"
