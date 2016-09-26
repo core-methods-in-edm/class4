@@ -129,4 +129,27 @@
 1474561825257:swirl()
 1474561863190:bye()
 1474561882766:H <-read.table(~/.rstudio-desktop/history_database, sep=",", fill=T, stringsAsFactors=F)
-","YOUR NAME"
+1474561882769:names(H) <- c(time, answer)
+1474561882770:H$id <- YOUR NAME
+1474561882770:write.csv(H, file = lesson1.csv, row.names = FALSE)
+1474562082759:swirl()
+1474562124832:x <- c(44, NA, 5, NA)
+1474562133039:x*3
+1474562196898:y <- rnorm(1000)
+1474562217994:z <- rep(NA,1000)
+1474562306120:my_data <- sample(c(y,z), 100)
+1474562331626:?is.na()
+1474562355595:is.na(my_data)
+1474562384343:my_na <- is.na(my_data)
+1474562393686:my_na
+1474562432290:my_data == NA
+1474562490594:sum(my_na)
+1474562510847:print(my_data)
+1474562518070:my_data
+1474562546805:0/0
+1474562568858:Inf/Inf
+1474562582142:Inf - Inf
+1474562617933:bye()
+1474852132579:H <-read.table(~/.rstudio-desktop/history_database, sep=","YOUR NAME"
+", fill=T, stringsAsFactors=F)
+","","YOUR NAME"
