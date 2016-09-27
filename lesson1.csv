@@ -1,0 +1,187 @@
+"time","answer","id"
+"1474556463366","install.packages(install.packages(swirl))","Devan"
+"1474556619555","install.packages(install.packages(swirl))","Devan"
+"1474557253391","install.packages(install.packages(swirl))","Devan"
+"1474557258823","install.packages(install.packages(swirl)","Devan"
+"1474557305129","install.packages(swirl)","Devan"
+"1474557388354","library(swirl)","Devan"
+"1474557411181","swirl()","Devan"
+"1474557564161","swirl()","Devan"
+"1474557723752","5+7","Devan"
+"1474557789245","x<-5+7","Devan"
+"1474557816033","x","Devan"
+"1474557834349","y<-x-3","Devan"
+"1474557838784","y","Devan"
+"1474557890094","c(1.1,9,3.14)","Devan"
+"1474557940704","z<-c(1.1,9,3.14)","Devan"
+"1474557954520","?c","Devan"
+"1474557973921","z","Devan"
+"1474558013062","z<-555<-z","Devan"
+"1474558023935","z<-555","Devan"
+"1474558040109","c(z,555,z)","Devan"
+"1474558055184","z*2+100","Devan"
+"1474558119521","my_sqrt<-sqrt(z-1)","Devan"
+"1474558567152","my_sqrt","Devan"
+"1474558628163","my_div<-z/my_sqrt","Devan"
+"1474558687000","my_div","Devan"
+"1474558776265","c(1,2,3,4)+c(0,10)","Devan"
+"1474558827307","c(1,2,3,4)+c(0,10,100)","Devan"
+"1474558862614","z*2+1000","Devan"
+"1474558894423","my_div","Devan"
+"1474559130388","H <-read.table(~/.rstudio-desktop/history_database, sep=:, fill=T, stringsAsFactors=F)","Devan"
+"1474559130809","names(H) <- c(time, answer)","Devan"
+"1474559130811","H$id <- YOUR NAME","Devan"
+"1474559130877","write.csv(H, file = lesson1.csv, row.names = FALSE)","Devan"
+"1474559261430","history_database","Devan"
+"1474559417086","getwd()","Devan"
+"1474559729280","bye()","Devan"
+"1474559861412","new lesson","Devan"
+"1474559882853","0","Devan"
+"1474559993218","swirl","Devan"
+"1474560002364","swirl()","Devan"
+"1474560045979","swirl()","Devan"
+"1474560091315","getwd()","Devan"
+"1474560098536","ls()","Devan"
+"1474560114583","x<-9","Devan"
+"1474560117421","ls()","Devan"
+"1474560124292","list.files()","Devan"
+"1474560135194","?list.files","Devan"
+"1474560189303","args(list.files)","Devan"
+"1474560235186","old.dir<-","Devan"
+"1474560341244","old.dir<-getwd()","Devan"
+"1474560371186","old.dir<-getwd()","Devan"
+"1474560390551","dir.create(testdir)","Devan"
+"1474560412202","setwd()","Devan"
+"1474560428728","testdir<-setwd()","Devan"
+"1474560443909","setwd()","Devan"
+"1474560452573","setwd(dir)","Devan"
+"1474560511830","setwd(test.dir)","Devan"
+"1474560598551","setwd(testdir)","Devan"
+"1474560633435","setwd(testdir)","Devan"
+"1474560641658","setwd(dir)","Devan"
+"1474560658883","setwd(testdir)","Devan"
+"1474560681045","fil.create(mytest.R)","Devan"
+"1474560696457","file.create(mytest.R)","Devan"
+"1474560715641","list()","Devan"
+"1474560729902","list.files()","Devan"
+"1474560745197","file.exists()","Devan"
+"1474560781791","file.exists(mytest.R)","Devan"
+"1474560814215","file.info(mytest.R)","Devan"
+"1474560859217","file.rename(mytest2.R)","Devan"
+"1474560876416","file.rename(mytest.R)","Devan"
+"1474560919364","file.rename(mytest.R mytest2.R)","Devan"
+"1474561000229","file.rename(mytest.R)$mytest.R","Devan"
+"1474561032507","file.rename(mytest.R to mytest2.R)","Devan"
+"1474561053339","> file.rename(mytest.R""to""mytest2.R)","Devan"
+"1474561075722","> file.rename(mytest.R)$ tomytest.R
+1474561120959:file.rename(mytest.R)$mode
+1474561246107:file.rename(from = mytest.R to = mytest2.R)
+1474561279798:> file.rename(from = mytest.R, to = mytest2.R)
+1474561350989:file.rename(from = )
+1474561409833:file.rename(from = mytest.R, to = mytest2.R)
+1474561476237:file.copy(from = mytest2.R, to = mytest3.R)
+1474561487732:> file.copy(from = mytest2.R, to = mytest3.R)
+1474561502226:> file.copy(from = mytest2.R, to = mytest3.R)
+1474561542541:> file.copy(mytest2.R, mytest3.R)
+1474561583125:> > file.copy(mytest2.R, mytest3.R)
+1474561644271:file.copy(mytest2.R, mytest3.R)
+1474561701358:file.path(mytest3.R)
+1474561821871:file.path(folder1,folder2)
+1474561847157:?dir.create
+1474561886173:dir.create(testdir2)
+1474561900443:dir.create(file.path('testdir2', 'testdir3'), recursive = TRUE)
+1474561929770:setwd(old.dir)
+1474561983181:setwd(old.dir)
+1474562020475:unlink('testdir' = true)
+1474562054819:unlink(testdir recursive = TRUE)
+1474562064426:> unlink(testdir, recursive = TRUE)
+1474562079872:> unlink('testdir' recursive = TRUE)
+1474562104976:> unlink(testdir, recursive = TRUE)
+1474562124713:> unlink(testdir, recursive = TRUE)
+1474562195814:> unlink(testdir,recursive = TRUE)
+1474562304815:unlink(testdir, recursive = TRUE)
+1474568035870:install.packages(swirl)
+1474568242546:H <-read.table(~/.rstudio-desktop/history_database, sep=","Devan"
+", fill=T, stringsAsFactors=F)
+1474568242685:names(H) <- c(time, answer)
+1474568242686:H$id <- Devan Goto
+1474568242688:write.csv(H, file = lesson1.csv, row.names = FALSE)
+1474568314067:getwd()
+1474568328004:ls()
+1474685306418:library(swirl)
+1474685328033:swirl()
+1474685372006:5+7
+1474685388147:x<-5+7
+1474685391322:x
+1474685402937:y<-x-3
+1474685407127:y
+1474685420626:c(1.1,9,3.14)
+1474685438532:z<-c(1.1,9,3.14)
+1474685445176:?c
+1474685448008:z
+1474685465037:c(z,555,z)
+1474685472844:z*2+100
+1474685512371:my_sqrt<sqrt(z-1)
+1474685536331:my_sqrt<-sqrt(z-1)
+1474685563658:my_sqrt
+1474685582097:my_div<-z/my_sqrt
+1474685593380:my_div
+1474685616106:c(1,2,3,4)+c(0,10)
+1474685629447:c(1,2,3,4)+c(0,10,100)
+1474685644110:z*2+1000
+1474685659356:my_div
+1474687301555:swirl()
+1474687328410:swirl()
+1474687370111:1:20
+1474687382369:1:10
+1474687390645:pi:10
+1474687504468:15:1
+1474687532586::?
+1474687534372:?:
+1474687537107::(?)
+1474687548600:?()","","Devan"
+"1474687558425","?","Devan"
+"()","","Devan"
+"1474687563178","?","Devan"
+"()","","Devan"
+"1474687576192","+","Devan"
+"1474687604261",">","Devan"
+"1474687611618","","Devan"
+"1474687658053","?:","Devan"
+"1474687665777","?:","Devan"
+"1474687681591","?`","Devan"
+"`","","Devan"
+"1474687687742","?`","Devan"
+"`","","Devan"
+"1474687712862","swirl()","Devan"
+"1474687772441","?`","Devan"
+"`","","Devan"
+"1474687829604","seq(1,20)","Devan"
+"1474687849287","seq(0,10,by=0.5)","Devan"
+"1474687867332","seq(5,10,length=30)","Devan"
+"1474687894657","my_seq<-seq(5,10,length=30)","Devan"
+"1474687903128","length()","Devan"
+"1474687916275","my_seq()","Devan"
+"1474687936707","length(my_seq)","Devan"
+"1474687973300","1","Devan"
+"length(my_seq)","","Devan"
+"1474687988728","seq(along.with=my_seq)","Devan"
+"1474688004325","seq_along(my-seq)","Devan"
+"1474688020155","seq_along(my_seq)","Devan"
+"1474688087539","rep(0,times=40)","Devan"
+"1474688111061","rep(c(0,1,2),times=10)","Devan"
+"1474688127620","reo(c(0,1,2),each=10)","Devan"
+"1474688139588","> rep(c(0,1,2),each=10)","Devan"
+"1474688166804","rep(c(0,1,2),each=10)","Devan"
+"1474688235808","H <-read.table(~/.rstudio-desktop/history_database, sep=:, fill=T, stringsAsFactors=F)","Devan"
+"1474688235858","names(H) <- c(time, answer)","Devan"
+"1474688235860","H$id <- Devan","Devan"
+"1474688235861","write.csv(H, file = lesson1.csv, row.names = FALSE)","Devan"
+"1474688280758","H <-read.table(~/.rstudio-desktop/history_database, sep=:, fill=T, stringsAsFactors=F)","Devan"
+"1474688280762","names(H) <- c(time, answer)","Devan"
+"1474688280763","H$id <- Devan Goto","Devan"
+"1474688280764","write.csv(H, file = lesson1.csv, row.names = FALSE)","Devan"
+"1474688306714","history_databases()","Devan"
+"1474688321124","history_database","Devan"
+"1474688330598","history_database()","Devan"
+"1474688494660","H <-read.table(~/.rstudio-desktop/history_database, sep=:, fill=T, stringsAsFactors=F)","Devan"
