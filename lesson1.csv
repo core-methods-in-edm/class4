@@ -1,0 +1,155 @@
+"time","answer","id"
+"1474402820682","install.packages(swirl)","YOUR NAME"
+"1474403231747","library(swirl)","YOUR NAME"
+"1474403256892","library(swirl)","YOUR NAME"
+"1474403276497","swirl()","YOUR NAME"
+"1474403716957","5+7","YOUR NAME"
+"1474403886467","-- bye()","YOUR NAME"
+"1474556326222","swirl()","YOUR NAME"
+"1474556359492","swirl()","YOUR NAME"
+"1474556433591","library(swirl)","YOUR NAME"
+"1474556439755","swirl()","YOUR NAME"
+"1474556504946","x <- 5 + 7","YOUR NAME"
+"1474556529649","x","YOUR NAME"
+"1474556567519","y <- x - 3","YOUR NAME"
+"1474556573423","y","YOUR NAME"
+"1474556628379","z <- c(1.1, 9, 3.14)","YOUR NAME"
+"1474556639949","?c","YOUR NAME"
+"1474556648992","z","YOUR NAME"
+"1474556680268","c(z, 555, z)","YOUR NAME"
+"1474556701249","z * 2 + 100","YOUR NAME"
+"1474556911147","my_sqrt <- sqrt(z - 1)","YOUR NAME"
+"1474556949305","my_sqrt","YOUR NAME"
+"1474556988648","my_div <- z/my_sqrt","YOUR NAME"
+"1474557020056","my_div","YOUR NAME"
+"1474557147437","z * 2 + 100 + c(1, 2, 3, 4) + c(0, 10)","YOUR NAME"
+"1474557178847","c(1, 2, 3, 4) + c (0, 10)","YOUR NAME"
+"1474557220160","c (1, 2, 3, 4) + c(0, 10, 100)","YOUR NAME"
+"1474557296740","(z * 2 + 1000)","YOUR NAME"
+"1474557410852","(z * 2 + 1000)","YOUR NAME"
+"1474557428499","z * 2 + 1000","YOUR NAME"
+"1474557455792","my_div","YOUR NAME"
+"1474557564364","getwd()","YOUR NAME"
+"1474557571476","ls()","YOUR NAME"
+"1474557617066","x <- 9","YOUR NAME"
+"1474557621883","ls()","YOUR NAME"
+"1474557636956","list.files()","YOUR NAME"
+"1474557650323","?list.files","YOUR NAME"
+"1474557692763","args()","YOUR NAME"
+"1474557716781","args(list.files ())","YOUR NAME"
+"1474557731664","args(list.files)","YOUR NAME"
+"1474557766833","old.dir <- args(list.files)","YOUR NAME"
+"1474557785197","old.dir <- getwd()","YOUR NAME"
+"1474557819809","dir.create (testdir)","YOUR NAME"
+"1474557847281","dir.create(testdir)","YOUR NAME"
+"1474557884364","testdir <- dir create ()","YOUR NAME"
+"1474557905297","testdir","YOUR NAME"
+"1474557947269","dir.create () <- testdir","YOUR NAME"
+"1474558022632","dir.create (testdir)","YOUR NAME"
+"1474558048668","setwd(testdir)","YOUR NAME"
+"1474558105358","file.create(mytest.R)","YOUR NAME"
+"1474558122637","file.create (mytest.R)","YOUR NAME"
+"1474558146785","list.files()","YOUR NAME"
+"1474558169382","file.exists (mytest.R)","YOUR NAME"
+"1474558197584","file.info(mytest.R)","YOUR NAME"
+"1474558287897","mytest2.R <- File rename (mytest.R)","YOUR NAME"
+"1474558307180","file.rename (mytest.R)","YOUR NAME"
+"1474558333582","file rename (mytest.R to mytest2.R)","YOUR NAME"
+"1474558363436","file.rename (mytest.R to mytest2.R)","YOUR NAME"
+"1474558437243","file. rename (mytest.R,mytest2.R)","YOUR NAME"
+"1474558463274","file.rename (mytest.R, mytest2.R)","YOUR NAME"
+"1474558523282","file.copy(mytest2.R,mytest3.R)","YOUR NAME"
+"1474558573178","file.path(mytest3.R)","YOUR NAME"
+"1474558637814","file.path(folder1, folder2)","YOUR NAME"
+"1474558723554","arg(folder1, folder2)","YOUR NAME"
+"1474558751245","args(folder1,folder2)","YOUR NAME"
+"1474558792418","file.path (args (folder1,folder2))","YOUR NAME"
+"1474558827087","file.path(folder1,folder2)","YOUR NAME"
+"1474558843487","?dir.create","YOUR NAME"
+"1474558941883","dir.create(testdir2,file.path(testdir3))","YOUR NAME"
+"1474559061161","dir.create(file.path (testdir2,testdir3))","YOUR NAME"
+"1474559130785","dir.create(filepath (testdir2,testdir3), recursive = TRUE)","YOUR NAME"
+"1474559181566","dir.create(file.path(testdir2,testdir3), recursive= TRUE)","YOUR NAME"
+"1474559261865","setwd(dir)","YOUR NAME"
+"1474559268776","setwd()","YOUR NAME"
+"1474559284802","setwd(old.dir)","YOUR NAME"
+"1474559316739","?delete_progress","YOUR NAME"
+"1474559334407","?delete_directory","YOUR NAME"
+"1474559428852","?dir.create","YOUR NAME"
+"1474559483218","unlink(testdir,recursive = TRUE)
+1474559540294:unlink('testdir', recursive = TRUE)
+1474559574099:>unlink ('testdir', recursive = TRUE)
+1474559735630:unlink ('testdir', recursive = FALSE)
+1474559844031:unlink(testdir, recursive = TRUE)
+1474559872617:unlink('testdir', recursive = TRUE)
+1474559936427:1:20
+1474559951840:pi:10
+1474559973418:15:1
+1474560020676:?':'
+1474560039498:seq(1,20)
+1474560068229:seq (0,10, by=0.5)
+1474560109241:my_seq <- seq(5, 10, length=30)
+1474560116535:length()
+1474560127473:length(my_seq)
+1474560155749:1:legnth(my_seq)
+1474560209692:c(1:length(my_seq))
+1474560229471:1:length(my_seq)
+1474560252726:seq(along.with = my_seq)
+1474560276742:swq_along(my_seq)
+1474560290915:seq_along(my_seq)
+1474560334610:rep(0, times = 40)
+1474560360265:rep(c(0,1,2), times = 10)
+1474560396972:rep(c(0,1,2), each = 10)
+1474560497672:numvect <- c(0.5, 55,-10, 6)
+1474560530735:num_vect <- c(0.5, 55, -10, 6)
+1474560558214:tf <- num_vect < 1
+1474560588972:tf
+1474560616676:num_vect >= 6
+1474560959319:my_char <- c(My,name,is)
+1474560966106:my_char
+1474561022776:paste(my_char, collapse =  )
+1474561096125:my_name <- c(my_char, Joonyoung Park)
+1474561100691:my_name
+1474561137046:paste(my_char, collapse =  )
+1474561191018:paste(my_name,  )
+1474561239372:paste(my_name, collapse =  )
+1474561334317:paste (Hello, world!, sep =  )
+1474561496726:paste (x,y,z, sep  )
+1474561506997:paste (x,y,z, sep =  )
+1474561546869:paste(1:3, c (x, Y, z), sep = "")
+1474561590876:paste(1:3, c(X,Y,Z), sep = "")
+1474561629313:paste(LETTERS, 1:4, sep = -)
+1474561691054:swirl()
+1474561796682:bye()
+1474561817694:H <-read.table(~/.rstudio-desktop/history_database, sep=","YOUR NAME"
+", fill=T, stringsAsFactors=F)
+1474561817696:names(H) <- c(time, answer)
+1474561817697:H$id <- YOUR NAME
+1474561817697:write.csv(H, file = lesson1.csv, row.names = FALSE)
+1474561825257:swirl()
+1474561863190:bye()
+1474561882766:H <-read.table(~/.rstudio-desktop/history_database, sep=",", fill=T, stringsAsFactors=F)
+1474561882769:names(H) <- c(time, answer)
+1474561882770:H$id <- YOUR NAME
+1474561882770:write.csv(H, file = lesson1.csv, row.names = FALSE)
+1474562082759:swirl()
+1474562124832:x <- c(44, NA, 5, NA)
+1474562133039:x*3
+1474562196898:y <- rnorm(1000)
+1474562217994:z <- rep(NA,1000)
+1474562306120:my_data <- sample(c(y,z), 100)
+1474562331626:?is.na()
+1474562355595:is.na(my_data)
+1474562384343:my_na <- is.na(my_data)
+1474562393686:my_na
+1474562432290:my_data == NA
+1474562490594:sum(my_na)
+1474562510847:print(my_data)
+1474562518070:my_data
+1474562546805:0/0
+1474562568858:Inf/Inf
+1474562582142:Inf - Inf
+1474562617933:bye()
+1474852132579:H <-read.table(~/.rstudio-desktop/history_database, sep=","YOUR NAME"
+", fill=T, stringsAsFactors=F)
+","","YOUR NAME"
