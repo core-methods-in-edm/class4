@@ -1,8 +1,8 @@
-# Class 5 - Swirl
+# Swirl
 
 ##Instructions
 
-This week you will be acquiring and submitting some work through Github. To do this you will need to have RStudio & Github connected. If you have not already done this, please follow the instructions [here](http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/) (Mac) or [here](http://www.r-bloggers.com/rstudio-and-github/) (Windows). This can be a non-trivial step, so save some time to do it. If you are having trouble either Tweet your anguish or email me directly. (The crucial step is that in RStudio under Tools -> Global Options -> Git/SVN you must fill in the both the boxes: Git executable and SVN executable with the locations of both of those files.)
+To have RStudio & Github connected, please follow the instructions [here](http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/) (Mac) or [here](http://www.r-bloggers.com/rstudio-and-github/) (Windows). This can be a non-trivial step, so save some time to do it. If you are having trouble either Tweet your anguish or email me directly. (The crucial step is that in RStudio under Tools -> Global Options -> Git/SVN you must fill in the both the boxes: Git executable and SVN executable with the locations of both of those files.)
 
 Once you have set up this connection we will be using an R package named Swirl, Swirl is an interactive R lesson generator. Your task will be to do an introductory lesson in R and pull the data back to the Github repository.
 
@@ -17,7 +17,7 @@ Once you have set up this connection we will be using an R package named Swirl, 
 
 **Step 5:** Paste the URL for your class4 repository under "Repository URL"
 
-**Step 6:** Name the directory "Class 4 - Swirl" and save it to a place on your computer that you will be able to locate
+**Step 6:** Name the directory "Swirl" and save it to a place on your computer that you will be able to locate
 
 **Step 7:** Install the "Swirl" package either by typing `install.packages("swirl")` into the Console window or installing through the "packages" tab on the bottom right window.
 
