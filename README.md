@@ -1,4 +1,4 @@
-# Class 5 - Swirl
+# Tutorial on Using Swirl
 
 ##Instructions
 
